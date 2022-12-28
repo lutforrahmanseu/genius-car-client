@@ -16,7 +16,6 @@ const Login = () => {
     login(email, password)
       .then((result) => {
         const user = result.user;
-        console.log(user.email);
         const currentUser = {
           email: user.email,
         };
